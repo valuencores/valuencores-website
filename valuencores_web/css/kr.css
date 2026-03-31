@@ -1,0 +1,90 @@
+/* ═══════════════════════════════════════════
+   VALUENCORES — 한국어 버전 추가 스타일
+   Noto Sans KR 폰트 적용 및 한글 타이포그래피 최적화
+   ═══════════════════════════════════════════ */
+
+/* ── 한국어 폰트 패밀리 오버라이드 ── */
+body.lang-kr {
+  font-family: 'Noto Sans KR', 'Inter', sans-serif;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+body.lang-kr .hero-title {
+  font-family: 'Inter', 'Noto Sans KR', sans-serif; /* 영문 로고는 Inter 유지 */
+}
+
+body.lang-kr .nav-logo {
+  font-family: 'Inter', sans-serif;
+}
+
+/* ── 한글 본문 행간 최적화 ── */
+body.lang-kr .section-body {
+  line-height: 2;
+  letter-spacing: -0.01em;
+}
+
+body.lang-kr .section-subtitle {
+  letter-spacing: 0;
+}
+
+body.lang-kr .hero-sub {
+  letter-spacing: 0.02em;
+}
+
+body.lang-kr .hero-tagline p {
+  letter-spacing: -0.02em;
+}
+
+body.lang-kr .hero-desc {
+  letter-spacing: 0.01em;
+}
+
+/* ── 카드 본문 한글 최적화 ── */
+body.lang-kr .card-body {
+  line-height: 1.9;
+  letter-spacing: -0.01em;
+}
+
+body.lang-kr .card-sub {
+  letter-spacing: 0;
+  font-style: normal;
+}
+
+/* ── 네트워크 설명 ── */
+body.lang-kr .network-desc {
+  line-height: 2;
+  letter-spacing: -0.01em;
+}
+
+/* ── 거버넌스 노드 라벨 ── */
+body.lang-kr .node-label-sub {
+  letter-spacing: -0.01em;
+  line-height: 1.7;
+}
+
+/* ── 분류 카드 설명 ── */
+body.lang-kr .div-card-desc {
+  letter-spacing: -0.01em;
+  line-height: 1.7;
+}
+
+/* ── 연락처 ── */
+body.lang-kr .contact-tagline {
+  letter-spacing: 0;
+}
+
+body.lang-kr .contact-address {
+  letter-spacing: -0.01em;
+}
+
+/* ── section center sub ── */
+body.lang-kr .section-center-sub {
+  letter-spacing: 0;
+}
+
+/* ── text-white-dim-center / text-white-center ── */
+body.lang-kr .text-white-center,
+body.lang-kr .text-white-dim-center {
+  letter-spacing: -0.01em;
+}
